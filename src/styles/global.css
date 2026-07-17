@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #080d20;
+  background-image: radial-gradient(ellipse at 50% -10%, #14204a 0%, #0a1130 45%, #070b1c 100%);
+  color: #f4efe0;
+  font-family: "Helvetica Neue", system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+}
+.serif {
+  font-family: "Georgia", "Times New Roman", serif;
+}
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #111;
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 3px;
+}
+button {
+  font-family: inherit;
+}
+button:focus {
+  outline: none;
+}
+img {
+  display: block;
+}
+.fadein {
+  animation: fade 0.35s ease;
+}
+@keyframes fade {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+input,
+textarea,
+select {
+  font-family: inherit;
+}
+.leaflet-container {
+  background: #0c1738 !important;
+  font-family: inherit;
+}
+.leaflet-popup-content-wrapper,
+.leaflet-popup-tip {
+  background: #101a3a;
+  color: #f4efe0;
+}
+.leaflet-popup-content-wrapper {
+  border: 1px solid #2a3c6e;
+  border-radius: 10px;
+}

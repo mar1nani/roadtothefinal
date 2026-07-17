@@ -1,0 +1,67 @@
+{
+  "lists": [
+    {
+      "id": "list-alimentation",
+      "name": "Alimentation",
+      "items": [
+        { "id": "food-eau", "name": "Eau", "checked": false },
+        { "id": "food-snacks", "name": "Snacks / fruits secs", "checked": false },
+        { "id": "food-fruits", "name": "Fruits", "checked": false },
+        { "id": "food-sandwichs", "name": "De quoi faire des sandwichs", "checked": false },
+        { "id": "food-boissons", "name": "Boissons fraîches", "checked": false }
+      ]
+    },
+    {
+      "id": "list-dodo-voiture",
+      "name": "Dodo en voiture",
+      "items": [
+        { "id": "sleep-oreiller", "name": "Oreiller / coussin", "checked": false },
+        { "id": "sleep-couverture", "name": "Couverture / sac de couchage", "checked": false },
+        { "id": "sleep-parebrise", "name": "Pare-soleil / rideaux occultants", "checked": false },
+        { "id": "sleep-matelas", "name": "Matelas gonflable ou mousse", "checked": false },
+        { "id": "sleep-lampe", "name": "Lampe frontale / torche", "checked": false }
+      ]
+    },
+    {
+      "id": "list-plage",
+      "name": "Plage / Mer",
+      "items": [
+        { "id": "beach-maillot", "name": "Maillot de bain", "checked": false },
+        { "id": "beach-serviette", "name": "Serviette de plage", "checked": false },
+        { "id": "beach-creme", "name": "Crème solaire", "checked": false },
+        { "id": "beach-lunettes", "name": "Lunettes de soleil", "checked": false },
+        { "id": "beach-tongs", "name": "Tongs / sandales", "checked": false }
+      ]
+    },
+    {
+      "id": "list-voiture",
+      "name": "Voiture",
+      "items": [
+        { "id": "car-huile", "name": "Niveau d'huile / liquides vérifiés", "checked": false },
+        { "id": "car-chargeur", "name": "Chargeur / câble USB", "checked": false },
+        { "id": "car-carte", "name": "Vignette péage / carte bancaire", "checked": false },
+        { "id": "car-gilet", "name": "Gilet + triangle (obligatoire en Espagne)", "checked": false }
+      ]
+    },
+    {
+      "id": "list-match",
+      "name": "Jour de la finale",
+      "items": [
+        { "id": "match-maillot", "name": "Maillot / drapeau à porter", "checked": false },
+        { "id": "match-batterie", "name": "Batterie externe (téléphone à fond pour la soirée)", "checked": false },
+        { "id": "match-cash", "name": "Un peu de cash (fan zone / bars)", "checked": false },
+        { "id": "match-veste", "name": "Petite veste pour la fraîcheur du soir", "checked": false }
+      ]
+    },
+    {
+      "id": "list-documents",
+      "name": "Documents",
+      "items": [
+        { "id": "doc-cni", "name": "Carte d'identité / passeport", "checked": false },
+        { "id": "doc-permis", "name": "Permis de conduire", "checked": false },
+        { "id": "doc-assurance", "name": "Carte grise + attestation d'assurance", "checked": false },
+        { "id": "doc-europeenne", "name": "Carte européenne d'assurance maladie", "checked": false }
+      ]
+    }
+  ]
+}
